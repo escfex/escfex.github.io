@@ -7,21 +7,21 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [starlight({
 
-    title: 'EscFeX',
+    title: 'EscFe',
     /**https://starlight.astro.build/zh-cn/guides/i18n/ */
-      defaultLocale: 'zh-cn',
-      locales: {
-        // 英文文档在 `src/content/docs/en/` 中。
-        en: {
-          label: 'English',
-          lang: 'en',
-        },
-        // 简体中文文档在 `src/content/docs/zh-cn/` 中。
-        'zh-cn': {
-          label: '简体中文',
-          lang: 'zh-CN',
-        },
-      },
+      // defaultLocale: 'zh-cn',
+      // locales: {
+      //   // 英文文档在 `src/content/docs/en/` 中。
+      //   en: {
+      //     label: 'English',
+      //     lang: 'en',
+      //   },
+      //   // 简体中文文档在 `src/content/docs/zh-cn/` 中。
+      //   'zh-cn': {
+      //     label: '简体中文',
+      //     lang: 'zh-CN',
+      //   },
+      // },
     social: {
       github: 'https://github.com/escfex'
     },
@@ -30,10 +30,11 @@ export default defineConfig({
       label: 'Guides',
       items: [
       // Each item here is one entry in the navigation menu.
-      {
-        label: 'About Me',
-        link: '/about/me/'
-      }]
+      // {
+      //   label: 'About Me',
+      //   link: '/about/me/'
+      // }
+    ]
     },
      {
       label: 'Reference',

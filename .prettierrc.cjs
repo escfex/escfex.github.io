@@ -21,5 +21,5 @@ module.exports ={
     trailingComma: 'all', // 尾随逗号
     importOrderSeparation: true,
     importOrderSortSpecifiers: true,
-  };
+};
   
